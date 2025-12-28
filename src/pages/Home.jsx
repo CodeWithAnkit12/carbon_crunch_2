@@ -1,9 +1,14 @@
 export default function Home() {
   return (
     <section className="hero">
-      <h2>Track Your Carbon Impact</h2>
-      <p>Measure, analyze and reduce emissions with clarity.</p>
+      <h2>
+        Measure Your <span>Carbon Impact</span>
+      </h2>
+      <p>
+        Carbon Crunch helps businesses track, analyze, and reduce their carbon
+        emissions with clarity and confidence.
+      </p>
       <button>Get Started</button>
     </section>
-  )
+  );
 }
